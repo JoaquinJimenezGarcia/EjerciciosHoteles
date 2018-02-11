@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <style>
+            #obligatorio
+            {
+                color: red;
+            }
+
+            #izquierda
+			{
+				margin-left:120px;
+				margin-right:100px;
+			}
+
+            #derecha
+			{
+                float:right;
+				width:400px;
+			}
+
+        </style>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <p id="obligatorio"> Nombre Usuario:
+                <center><input type="text" name="nombre"></center>
+            </p>
+            <p id="obligatorio"> Contraseña:
+                <center><input type="password" name="password"></center>
+            </p>
+            <p id="obligatorio"> Repetir Contraseña
+                <center><input type="password" name="password"></center>
+            </p>
+            <p> Dirección:
+                <center><input type="text" name="direccion"></center>
+            </p>
+            <p> Ciudad:
+                <center><input type="text" name="ciudad"></center>
+            </p>
+            <p> Provincia:
+                <center><input type="text" name="provincia"></center>
+            </p>
+            <p id="obligatorio"> Número de huespedes:
+                <center><input type="number" name="huespedes"></center>
+            </p>
+            
+            <br>           
+            
+            Servicios
+            <div id="izquierda">
+                <input type="checkbox">Aire Acondicionado
+                <br>
+                <input type="checkbox">Caja fuerte
+                <br>
+                <input type="checkbox">Minibar
+                <br>
+                <input type="checkbox">Conexión a internet
+            </div>
+            <div id="derecha">
+                <input type="checkbox">Aire Acondicionado
+                <br>
+                <input type="checkbox">Caja fuerte
+                <br>
+                <input type="checkbox">Minibar
+                <br>
+                <input type="checkbox">Conexión a internet
+            </div>
+            <br>
+            
+            
+            Tipos de Habitación
+            <div id="izquierda">
+                <br>
+                <input type="checkbox">Individual
+                <br>
+                <input type="checkbox">Doble
+                <br>
+                <input type="checkbox">Suite
+                <br>
+            </div>
+
+            
+            Pensión
+            <div id="izquierda">
+                <br>
+                <input type="checkbox">Alojamiento
+                <br>
+                <input type="checkbox">Desayuno
+                <br>
+                <input type="checkbox">Media
+                <br>
+                <input type="checkbox">Completa
+                <br>
+            </div>
+
+            <br>
+
+            Comentarios o sugerencias
+            <div id="izquierda">
+                <br>
+                <input type="textarea">
+                <br>
+            </div>
+
+            <br>
+
+            Email de contacto:
+            <input type="text" name="email" id="email">
+            
+            <br>
+            <br>
+            <br>
+            
+            <div id="izquierda"> 
+                <input type="checkbox" name="acepto" id="acepto">Acepto la política de privacidad
+            </div>
+           
+            
+            <br>
+
+            <div id="izquierda">
+                <button>Enviar</button>
+            </div>
+            <div id="derecha">
+                <button>Limpiar</button>
+            </div>
+        </form>
+    </body>
+</html>
